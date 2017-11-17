@@ -1,6 +1,7 @@
 # metasploit-script-ataque-cmd
 
 **MSFCONSOLE - SCRIPT DE ATAQUE MASIVO**
+
 **Autor: Jaime Andrés Cruz Romero**
 
 **IMPORTANTE:** La finalidad del presente script para Metasploit es enteramente académica, con el ánimo de
