@@ -1,10 +1,10 @@
 # metasploit-script-ataque-cmd
 
-----------------------------------------
-- MSFCONSOLE - SCRIPT DE ATAQUE MASIVO -
--                                      -
-- Autor: Jaime Andrés Cruz Romero      -
-----------------------------------------
+****************************************
+* MSFCONSOLE - SCRIPT DE ATAQUE MASIVO *
+*                                      *
+* Autor: Jaime Andrés Cruz Romero      *
+****************************************
 
 IMPORTANTE: La finalidad del presente script para Metasploit es enteramente académica, con el ánimo de
 compartir un ejemplo de cómo se pueden automatizar ataques por medio de código Ruby On Rails.
