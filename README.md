@@ -8,8 +8,6 @@ compartir un ejemplo de cómo se pueden automatizar ataques por medio de código
 El autor NO SE HACE RESPONSABLE POR El uso indebido de este material de aquellos quienes lo usen y/o 
 modifiquen. Reitero, es de uso ENTERAMENTE ACADEMICO.
 
-**Archivo del script: attack_cmd.rc**
-
 El presente script tiene como objetivo realizar un ataque con Metasploit a un rango de IPs
 en un segmento determinado (Ej: 192.168.1.XXX). Se ha diseñado desde Kali Linux 2017.1
 (No se han realizado pruebas en otras versiones de Linux).
@@ -29,3 +27,11 @@ siguientes variables, a  saber:
 * $fin (Entero): Dirección IP final de ataque
 * $trg (Entero): 0 por defecto. Definición del target en caso que se desee obviar la validación del fingerprint del SO. 
 * $cmd (Texto): Array en el que se pueden registrar los comandos CMD que se desean ejecutar en la victima
+
+**Pasos para utilizar el script:**
+
+1. Descargue el archivo **attack_cmd.rb**. Para este ejemplo, se descargará en la ruta /root/Desktop/
+2. Modifique el script con las configuraciones correspondientes, según lo descrito anteriormente.
+3. Accceda a una terminal linux y escriba **msfconsole**
+4. Una vez haya ingresado a Metasploit, ejecute el siguiente comando: **resource /root/Desktop/attack_cmd.rb**
+5. Disfrute!
