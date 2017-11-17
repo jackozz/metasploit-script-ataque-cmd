@@ -21,15 +21,9 @@ El segmento que se considera es el mismo que posee el equipo que lo esté ejecut
 Para la ejecución del script, se deben considerar las siguientes configuraciones en las 
 siguientes variables, a  saber:
 
-* $exc (Entero)
- * Array en el que se pueden registrar las IP que se desean excluir del rango de ataque
-* $boo (Entero) 
- * 1 Activo, 0 Inactivo - Dispara escaneos con NMAP para engañar a la víctima, registrando conexiones múltiples, en caso que se monitoree con netstat
-* $rip (Entero)
- * Dirección IP inicial de ataque
-* $fin (Entero)
- * Dirección IP final de ataque
-* $trg (Entero)
- * 0 por defecto. Definición del target en caso que se desee obviar la validación del fingerprint del SO. 
-* $cmd (Texto)
- * Array en el que se pueden registrar los comandos CMD que se desean ejecutar en la victima
+* $exc (Entero): Array en el que se pueden registrar las IP que se desean excluir del rango de ataque
+* $boo (Entero): 1 Activo, 0 Inactivo - Dispara escaneos con NMAP para engañar a la víctima, registrando conexiones múltiples, en caso que se monitoree con netstat
+* $rip (Entero): Dirección IP inicial de ataque
+* $fin (Entero): Dirección IP final de ataque
+* $trg (Entero): 0 por defecto. Definición del target en caso que se desee obviar la validación del fingerprint del SO. 
+* $cmd (Texto): Array en el que se pueden registrar los comandos CMD que se desean ejecutar en la victima
