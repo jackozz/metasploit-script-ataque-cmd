@@ -8,6 +8,8 @@ compartir un ejemplo de cómo se pueden automatizar ataques por medio de código
 El autor NO SE HACE RESPONSABLE POR El uso indebido de este material de aquellos quienes lo usen y/o 
 modifiquen. Reitero, es de uso ENTERAMENTE ACADEMICO.
 
+**Archivo del script: attack_cmd.rc**
+
 El presente script tiene como objetivo realizar un ataque con Metasploit a un rango de IPs
 en un segmento determinado (Ej: 192.168.1.XXX). Se ha diseñado desde Kali Linux 2017.1
 (No se han realizado pruebas en otras versiones de Linux).
