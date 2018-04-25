@@ -5,7 +5,7 @@ $exc = [110, 120, 130] 	# IPs a excluir
 $boo = 0 				# Distraccion con NMAP (si:1 / no:0)
 
 $rip = 1 				# IP Inicial
-$fin = 254 				# IP Final
+$fin = 253 				# IP Final
 
 $trg = 0				# Defincion del target. 0 para Automatico
 
