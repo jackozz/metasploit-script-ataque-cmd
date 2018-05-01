@@ -1,7 +1,7 @@
 <ruby>
 $start = Time.now
 
-$exc = [110, 120, 130] 	# IPs a excluir
+$exc = [110, 120, 130, 140] 		# IPs a excluir
 $boo = 0 				# Distraccion con NMAP (si:1 / no:0)
 
 $rip = 1 				# IP Inicial
